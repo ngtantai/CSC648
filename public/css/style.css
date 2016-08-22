@@ -1,0 +1,363 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    background-color: #330033;
+    margin-bottom:20vh;
+}
+.border {
+    border: 2px solid #73AD21;
+}
+.logo {
+    font-size: 100px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #FFCC33;
+}
+.logo .number {
+    color: #222;
+    opacity: 0.1;
+}
+.title-top-margin {
+    background: #330033; 
+    padding: 2%;
+    box-shadow: 1px 1px 10px grey;
+}
+.shadow {
+    box-shadow: 0 3px 10px -2px gray;
+    background: linear-gradient(#f6f6f6, #e6e6e6,#cdcdcd ) ;
+    border:0px;
+    color: #797979;
+}
+.welcome {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.grey {
+    color:#333333;
+}
+.hover-this-tab a:hover{
+    background: #d7d7d7;
+    color: #333333;
+}
+.hover-this-tab span:hover{
+    background: #d7d7d7;
+    color: #333333;
+}
+img:hover  {
+    box-shadow: 1px 1px 10px grey;
+}
+.view-item-button {
+    border-radius: 5px;
+    padding: 8px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #67A2D4;
+    color: black;
+    border: 1px solid #767676;
+    border-right: 3px solid #767676;
+    border-bottom: 3px solid #767676;
+}
+
+.view-item-button:hover {
+    background-color: #555555;
+    color: white;
+    border: 1px solid #555555;
+    margin-right: 6px;
+    padding: 6px 6px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.view-item-button:hover {
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.contact-seller-button {
+    border-radius: 5px;
+    padding: 8px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #F2CC69;
+    color: black;
+    border: 1px solid #767676;
+    border-right: 3px solid #767676;
+    border-bottom: 3px solid #767676;
+}
+.contact-seller-button:hover {
+    background-color: #555555;
+    color: white;
+    border: 1px solid #555555;
+    padding: 6px 6px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.buy-button-border {
+    border: 1px solid #767676;
+    border-right: 3.5px solid #767676;
+    border-bottom: 3.5px solid #767676;
+}
+.contact-seller-button:hover {
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.margin-top-20 {
+    margin-top: 20%;
+}
+.navig{
+    font-family: Raleway, sans-serif;
+    background-color: #5DB2DE;
+    font-color: #000000;
+}
+.navigation a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #222;
+    background: #222;
+    color: #fff;
+}
+.hover li:hover {
+    color: #222;
+    background: #B3B3B3;
+}
+.container {
+    padding: 0px;
+}
+
+.container .box {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.search-group {
+    margin-left: 20%;
+}
+.input-attributes {
+    width: 62%;
+    margin-left: 0%;   
+    float:left;
+    margin-right: 1px;
+        
+}
+#search_field {
+    background-size: 20px 20px;
+    background-image: url('../public/img/search_icon.png');
+    background-position: 6px 6px; 
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.margin-right-1 {
+    margin-right: 1px;
+}
+.float-left {
+    float: left;
+}
+.border {
+    display: block;
+    width: 1000px;
+    height: 100px;    
+    border-color: 1px solid red;
+}
+.margin-left-25 {
+    margin-left: 25%;
+}
+.placeholder {
+    font-size: 12px;
+}
+#email_field {
+    background-size: 30px 32px;
+    background-image: url('../public/img/mail.png');
+    background-position: 6px 6px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+#username_field {
+    background-size: 30px 32px;
+    background-image: url('../public/img/account.png');
+    background-position: 6px 6px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+#password_field {
+    background-size: 30px 32px;
+    background-image: url('../public/img/lock.png');
+    background-position: 6px 6px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+#item_price{
+    background-size: 15px 16px;
+    background-image: url('../public/img/money1.png');
+    background-position: 5px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 12%;
+
+}
+#signup {
+    height:50px; 
+    width:100%; 
+    font-size:18px; 
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; 
+    border-radius: 0px;
+}
+#login {
+    height:40px;
+    width:100%; 
+    font-size:18px; 
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; 
+    border-radius:7px; 
+    margin-top: 3%;
+}
+#item_title {
+    height:40px;
+    width:150%; 
+    font-size:18px; 
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; 
+    border-radius:10px; 
+    margin-top: 3%;
+}
+#item_price {
+    height:40px;
+    width:40%; 
+    font-size:14px; 
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; 
+    border-radius:10px; 
+    margin-top: 3%;
+}
+#categories {
+    height:50px;
+    width:50%; 
+    font-size:14px; 
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; 
+    border-radius:20px; 
+    margin-top: 0%;
+}
+#item_condition{
+    height:50px;
+    width:50%; 
+    font-size:14px; 
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; 
+    border-radius:20px; 
+    margin-top: 0%;
+}
+#submit {
+    height:40px;
+    font-size:18px; 
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; 
+    border-radius:7px; 
+    margin-top: 3%;
+}
+.img-responsive {
+    border-radius: 15px;
+}
+#footer {
+    height:15vh;
+    padding-left:40vw;
+    margin-top: 0vh;
+    margin-bottom:-4vh;
+    padding-top:4vh;
+    padding-bottom:auto;
+}
+.fixed-size {
+    width:304px;
+    height:228px;
+}
+
+.btn-xlarge {
+    padding: 30px 60px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+    font-size:30px;
+}
+
+h5 {
+    font-size:28px;
+}
+
+.first-column {
+    background-color: #B3B3B3;
+}
+
+#selling-item a:active{
+    color: #222;
+    background: #F1F1F1;
+}
+#selling-item a:hover{
+    color: #222;
+    background: #B3B3B3;
+}
+#acount-profile a::selection{
+    color: #222;
+    background: #F1F1F1;
+}
+#acount-profile a:hover{
+    color: #222;
+    background: #B3B3B3;
+}
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  td {
+    width: 17%;
+  }
+  td.img {
+    width: 10%;
+  }
+  table {
+    margin-top: 2px;
+    background-color: #f8f8f8;
+}
+#table-image {
+    width: 10%;
+}
+.logout {
+    opacity: 0.5;
+    margin-top:5vh;
+    margin-bottom:10vh;
+    background-color:#cfebfd;
+    border-radius: 10px;
+}
+b {
+    font-weight: 900;
+}
+.img-item {
+    height: 55vh; 
+    width: 30vw;
+}
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
